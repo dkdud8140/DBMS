@@ -1,0 +1,3 @@
+CREATE TABLESPACE scoolDB
+DATAFILE 'c:\oracle/data/mydb.dbf'
+SIZE 1M AUTOEXTEND ON NEXT 1k ;

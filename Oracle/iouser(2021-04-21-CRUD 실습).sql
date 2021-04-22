@@ -126,7 +126,7 @@ WHERE io_buyer = '홍길동';
 -- tbl_iolist에 저장되어 있는 데이터 list 중에서
 -- io_buyer 칼럼의 값이 '홍길동'인 데이터만 간추려서
 -- io_buyerm io_pname 칼럼만 보이고 나머지 칼럼은 숨김으로 하여 보요죠
-SELECT io_buyer, io_pname 
+SELECT io_buyer as 고객이름, io_pname as 구매한상품이름 
 FROM tbl_iolist
 WHERE io_buyer = '홍길동';
 

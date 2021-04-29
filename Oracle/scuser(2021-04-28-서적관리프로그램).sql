@@ -189,7 +189,7 @@ SELECT bk_isbn, bk_title, ba_author
 FROM tbl_books
     LEFT JOIN tbl_book_author
         ON bk_isbn = ba_isbn 
-ORDER BY bk_author1; 
+ORDER BY ba_author; 
 
 
 

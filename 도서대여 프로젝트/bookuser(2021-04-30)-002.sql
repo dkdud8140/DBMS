@@ -90,7 +90,7 @@ REFERENCES tbl_author(au_code);
 
 
 INSERT INTO tbl_author(au_code, au_name)
-VALUE('A0001', '삭제된 저자');
+VALUES('A0003', '삭제된 저자2');
 
 
 

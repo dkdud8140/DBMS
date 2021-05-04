@@ -171,6 +171,7 @@ Drop view view_도서대여정보 ;
 CREATE VIEW view_도서대여정보 AS
 (
     SELECT 
+        br.br_seq AS 구분번호,
         br.br_sdate AS 대여일,
         br.br_bcode AS 회원코드,
         bu.bu_name AS 회원명,

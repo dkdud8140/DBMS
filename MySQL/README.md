@@ -14,3 +14,5 @@ MySQL은 사용자를 등록하는 순간 많은 권한을 갖게 된다.
 
 ## DataBase
 * Oracle의 TableSpace와 유사한 개념으로 일반적으로 표준 SQL을 사용하는 데이터베이스 SW 저장소 개념.
+* CREATE 명령을 사용하여 Data 저장소 생성
+* 

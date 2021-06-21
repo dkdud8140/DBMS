@@ -77,7 +77,7 @@ VALUES('20210002','미디어의이해', 70);
     
     
 select * from view_list ;
-select * from view_list where 학번='20210002';
+select * from view_list where v_num='20210002';
     
 drop view view_list ;    
 
@@ -102,3 +102,20 @@ order by sc_stnum
     
 select * from view_subscore ;
 drop view view_subscore ;
+
+
+SELECT * FROM tbl_student
+WHERE st_num = '20210001';
+
+SELECT * FROM tbl_student  WHERE st_num = 20210001 ;
+
+update tbl_student
+SET st_name = '홍길동2'
+WHERE st_num = '20210001';
+
+
+select * From tbl_student
+WHERE st_name = "홍길동2" && st_dept = '컴퓨터공학과' && st_grade = '4' && st_tel = '010-0000-0001' && st_addr ='광주광역시';
+
+delete from tbl_student
+where st_num = '2021003';

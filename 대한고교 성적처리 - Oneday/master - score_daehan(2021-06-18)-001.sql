@@ -119,3 +119,6 @@ WHERE st_name = "홍길동2" && st_dept = '컴퓨터공학과' && st_grade = '4'
 
 delete from tbl_student
 where st_num = '2021003';
+
+ALTER TABLE tbl_student
+ADD unique(st_name, st_dept, st_tel);

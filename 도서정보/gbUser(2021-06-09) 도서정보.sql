@@ -28,3 +28,7 @@ CREATE TABLE tbl_author (
 	au_addr	VARCHAR(125)	,	
 	au_genre	VARCHAR(30)		
 );
+
+DESC tbl_books;
+
+select * from tbl_books;
